@@ -1,0 +1,30 @@
+
+        html{
+            background-color: darkcyan;
+            
+        }
+        body{
+            background-color: darkgray;
+        }
+        h1{
+            background-color: dodgerblue;
+        }
+        p{
+            background-color: darkseagreen;
+        }
+        .nombreClaseRojo{
+            background-color: red;
+            
+        }
+        .nombreClaseAzul{
+            background-color: blue;
+            
+        }
+        .nombreClaseAmarillo{
+            background-color: yellow;
+            
+        }
+        #parrafoverde{
+            background-color: green;
+        }
+   
