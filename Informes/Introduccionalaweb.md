@@ -125,7 +125,50 @@ El Doctype o “Declaración del tipo de documento” es una instrucción especi
 
 ### Syntaxis HTML
 ####Agregar títulos 
-Para agregar titulos se escribe la letra h seguido del numero segun la importancia del título así:
+Para agregar titulos se escribe la letra h seguido del número segun la importancia del título así :
+```
+> <html></html>
+```
+La estructura básica para un documento funcional sería la siguiente:
+```
+<HTML>
+    <HEAD>
+        <TITLE>Título de la página</TITLE>
+        ...
+    </HEAD>
+
+    <BODY>
+        Aquí iría el contenido de la página
+    </BODY>
+</HTML>
+```
+
+Para resaltar los titulos  lo hacemos con la letra h seguido de los números segun sea la importancia del texto.
+```
+<h1></h1>
+<h2></h2>
+<h3></h3>
+    .
+    .
+    .
+```
+<h1>Título 1</h1>
+<h2>Título 2</h2>  
+<h3>Título 3</h3>  
+<h4>Título 4</h4>  
+
+A la hora de untilizar enlaces aplicamos el siguiente código:
+```
+<a href="www.enlace.com">nombre del enlace</a>
+```
+
+
+
+
+
+
+
+
 
 
 Se pueden usar imágenes desde nuestros archivos en github que constan de la siguiente URL:
@@ -196,4 +239,4 @@ Para nosotros utilizar los Links dentro de Github debemos de hacer dos cosas:
 
 # ¡Gracias por su atención!
 
-Author: [Adrian Eguez](https://github.com/adrianeguez)
+Author: [David Tayupanta](https://github.com/davidotb91)
