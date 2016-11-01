@@ -29,6 +29,36 @@
         console.log(arreglString);
         console.log(arreglonumeros);
         console.log(arregloDecimales);
+        //objetos con estructuras json 
+        var davwolf ={
+            'nombre':'david',
+            'apellido':'Tayupanta',
+            edad:25,
+        
+            mascotas:['peluche','toty','firulais'],
+            hermanos:[{
+            nombre:'algo',
+            apellido:'nose'
+        },
+        {
+            nombre:'ds'
+        }],
+        //agregar funciones
+            getNombre: function(){
+            return this.nombre;
+        },
+            setnomebre: function(nuevoNombre){
+                this.nombre= nuevoNombre;
+                
+            }
+        
+        }
+        
+        console.log(davwolf);
+        console.log(davwolf.hermanos);
+        console.log(davwolf.getNombre());
+        davwolf.setnomebre("apellido");
+        console.log(davwolf.getNombre());
     </script>
 </head>
 
