@@ -123,68 +123,57 @@ El Doctype o “Declaración del tipo de documento” es una instrucción especi
 
 ## Desarrollo del informe
 
-### Syntaxis HTML
+### 
 ####Agregar títulos 
-Para agregar titulos se escribe la letra h seguido del numero segun la importancia del título así:
-
-
-Se pueden usar imágenes desde nuestros archivos en github que constan de la siguiente URL:
-
-- Github
-  * La url de github que es `https://github.com` 
-- Usuario
-  * La url de usuario de github que en este caso es: `/adrianeguez` 
-- Repositorio
-  * El repositorio de Github que estamos usando, en este caso es `/Tec_Web_Js_2016_B`
-- Rama o  Branch
-  * La rama de nuestro repositorio en este formato: `/blob/master`
-- El PATH
-  * La direccíon de nuesto archivo por ejemplo `/carpeta/subcarpeta/subsubcarpeta/archivo.png` en este ejemplo es `/Ejemplo%20de%20un%20Informe/Imagenes/Flujograma.png` 
-- RAW
-  * Por ultimo mandamos un Query String Parameter de la con la variable `raw` y valor `true` de la siguiente manera: `?raw=true`
-  
-**Al final** nuestro url queda de la siguiente manera:
-
-#### `https://github.com/adrianeguez/Tec_Web_Js_2016_B/blob/master/Ejemplo%20de%20un%20Informe/Imagenes/Flujograma.png?raw=true`
-
-<p align="center">
-<img src="https://github.com/adrianeguez/Tec_Web_Js_2016_B/blob/master/Ejemplo%20de%20un%20Informe/Imagenes/Flujograma.png?raw=true" width="500" height="800">
-</p>
-
-Por ultimo podemos centrar las imagenes de la siguiente manera:
-
-
+Para agregar titulos se escribe la letra h seguido del número segun la importancia del título así :
 ```
-<p align="center">
+> <html></html>
+```
+La estructura básica para un documento funcional sería la siguiente:
+```
+<HTML>
+    <HEAD>
+        <TITLE>Título de la página</TITLE>
+        ...
+    </HEAD>
 
-<img src="https://github.com/adrianeguez/Tec_Web_Js_2016_B/blob/master/Ejemplo%20de%20un%20Informe/Imagenes/Flujograma.png?raw=true" width="500" height="800">
-
-</p>
+    <BODY>
+        Aquí iría el contenido de la página
+    </BODY>
+</HTML>
 ```
 
-### Links dentro de github
+Para resaltar los titulos  lo hacemos con la letra h seguido de los números segun sea la importancia del texto.
+```
+<h1></h1>
+<h2></h2>
+<h3></h3>
+    .
+    .
+    .
+```
+<h1>Título 1</h1>
+<h2>Título 2</h2>  
+<h3>Título 3</h3>  
+<h4>Título 4</h4>  
 
-Para nosotros utilizar los Links dentro de Github debemos de hacer dos cosas:
+A la hora de untilizar enlaces aplicamos el siguiente código:
+```
+<a href="www.enlace.com">nombre del enlace</a>
+```
+___
 
-1. Definir un anchor name donde nosotros queramos mover cuando demos clic de la siguiente manera y formate (**NOTESE QUE ESTAN JUNTAS**):
-
-  ```
-  <a name="nombre"></a>
-  ## titulo2
-  ```
-2. Después de esto debemos de linkear mediante un texto por ejemplo en una lista de la siguiente manera (**NO ELVIDAR EL `#`**):
+Para agregar css a nuestros paginas necesitamos agregar la siguiente sintaxis:
+```
+ <se>
+        .borde {
  
-  ```
-  - <a href="#nombre">Dale clic aqui para ir al titulo 2</a>
-  ```
-  <a name="conrec"></a>
+ border: black solid 2px;
+        }
+        ```
+    </style>## Conclusiones y Recomendaciones
 
-<br>
-<a href="#cabecera">A la cabecera</a>
-
-## Conclusiones y Recomendaciones
-
-- Se recomienda mejorar la presentacion
+- En html es importante considerar que cada queta abierta debe ser cerrada
 - Se recomienda usar el ir a cabecera despues de terminar una seccion
 - Se aprendio el uso de HTML con Markdown
 - Conocimos herramientas de desarrollo web como postman e inspector web
@@ -196,4 +185,4 @@ Para nosotros utilizar los Links dentro de Github debemos de hacer dos cosas:
 
 # ¡Gracias por su atención!
 
-Author: [Adrian Eguez](https://github.com/adrianeguez)
+Author: [David Tayupanta](https://github.com/davidotb91)
