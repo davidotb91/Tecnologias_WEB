@@ -213,21 +213,7 @@ Para esto utilizaremos Postman.
 Postman, Cliente HTTP Para Probar Servicios Web
 Postman es una extensión gratuita para el navegador Google Chrome que permite probar servicios web fácilmente, basta con indicar la url, el método HTTP (POST, GET, etc.) y los parámetros de la petición.
 
-Conforme usamos Postman, automáticamente se van guardando las peticiones más recientes en el historial, que se encuentra a la izquierda de la pantalla, para tenerlas a la mano. También permite definir colecciones en donde podemos guardar una serie de métodos para reutilizarlos más fácilmente y poder compartirlos con otras personas en formato json. Ademas podemos crear ambientes y definir variables especificas para esos ambientes.
-Instalacion Postman
-<p align="center">
-<img src="Recursos/postman.PNG" width="600" height="400">
-</p>
-Postman
-<br>
-<p align="center">
-<img src="Recursos/postman2.PNG" width="600" height="400">
-</p>
-<br>
-<p align="center">
-<img src="https://github.com/wilgue10/TecWeb2016B/blob/08ServidorHTTP/servidor/InformeServidorHTTP/Recursos/postman3.PNG?raw=true" width="600" height="400">
-</p>
-<br>
+C
 
 app.post('/Usuario', function (req, res) {
     console.log(req.query.nombre);
@@ -259,10 +245,6 @@ app.post('/Usuario', function (req, res) {
        
 });
 
-<p align="center">
-<img src="https://github.com/wilgue10/TecWeb2016B/blob/08ServidorHTTP/servidor/InformeServidorHTTP/Recursos/post.PNG?raw=true" width="600" height="400">
-</p>
-<br>
 
 ## Conclusiones y Recomendaciones
 
