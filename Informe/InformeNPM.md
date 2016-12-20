@@ -71,7 +71,7 @@ NPM está escrito completamente en JavaScript y fue desarrollado por Isaac Z. Sc
 
 ### Instalación de NPM
 <br>
-Suponiendo que ya ha instalado Node.js, cree un directorio para que contenga la aplicación y conviértalo en el directorio de trabajo.
+Despues de haber instalado y descargado Node.js, cree un directorio para que contenga la aplicación y conviértalo en el directorio de trabajo.
 
 
 $ mkdir myapp
@@ -85,13 +85,12 @@ Utilice el mandato npm init para crear un archivo package.json para la aplicaci�
 $ npm init
 
 <br>
-Este mandato solicita varios elementos como, por ejemplo, el nombre y la versión de la aplicación. Por ahora, sólo tiene que pulsar INTRO para aceptar los valores predeterminados para la mayoría de ellos, con la siguiente excepción:
-
+Esta opcion solicita varios campos que podemos o no llenar para la práctica le daremos enter a todo lo que se nos presente.
 
 $ entry point: (index.js)
 
 <br>
-Especifique app.js o el nombre que desee para el archivo principal. Si desea que sea index.js, pulse INTRO para aceptar el nombre de archivo predeterminado recomendado.
+Especifique app.js o el nombre que desee para el archivo principal. 
 
 $ npm install express --save
 
@@ -120,8 +119,7 @@ app.listen(3000, function () {
 });
 
 <br>
-La aplicación inicia un servidor y escucha las conexiones en el puerto 3000. La aplicación responde con “Hello World!” para las solicitudes al URL raíz (/) o a la ruta raíz. Para cada vía de acceso diferente, responderá con un error 404 Not Found.
-Ejecute la aplicación con el siguiente mandato:
+La aplicación inicia un servidor y escucha las conexiones en el puerto 3000. La aplicación responde con “Hello World!” para las solicitudes al URL raíz (/) o a la ruta raíz. Ejecute la aplicación con el siguiente mandato:
 
 
 $ node app.js
@@ -129,10 +127,10 @@ $ node app.js
 Ejecucion:
 <br>
 <p align="center">
-<img src="https://github.com/wilgue10/TecWeb2016B/blob/08ServidorHTTP/servidor/InformeServidorHTTP/Recursos/smsEjecucion.PNG?raw=true" width="300" height="200">
+<img src="Recursos/ejecucionFire.PNG" height="200">
 </p>
 <br>
-digitamos en nuestro explorador favorito lo siguiente:
+abrir un navegador
 
 localhost:5050
 
@@ -145,7 +143,6 @@ localhost:5050
 
 ###Direccionamiento básico
 <br>
-El direccionamiento hace referencia a la determinación de cómo responde una aplicación a una solicitud de cliente en un determinado punto final, que es un URI (o una vía de acceso) y un método de solicitud HTTP específico (GET, POST, etc.).
 
 Cada ruta puede tener una o varias funciones de manejador, que se excluyen cuando se correlaciona la ruta.
 
