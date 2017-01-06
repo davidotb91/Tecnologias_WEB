@@ -8,7 +8,7 @@
 
 ### Tema : `Sailsjs - Assets / Views / Pipeline / Controllers` 
 ### Fecha : `2016-01-05`
-### Estudiante : `Vicente Adrian Eguez Sarzosa`
+### Estudiante : `Jonathan David Tayupanta Paspuel`
 ### Profesor : `Tania Calle - Adrian Eguez`
 ### Número de informe : `8`
 
