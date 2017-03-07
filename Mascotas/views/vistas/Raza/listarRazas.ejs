@@ -1,0 +1,16 @@
+<div class="row">
+    <h2>Esta es la lista de razas en el sistema</h2>
+  <% for(var i=0; i<razas.length; i++){ %>
+  <div class="col-sm-4">
+    <h3 class="text-center"> <%=razas[i].nombre%></h3>
+    <a style="color:white" href="/Raza/BorrarRaza?id=<%=razas[i].id%>">
+      <button class="btn btn-block btn-danger"> Borrar</button>
+    </a>
+    <br>
+    <a style="color:white" href="/EditarRaza?id=<%=razas[i].id%>">
+      <button class="btn btn-block btn-success"> Editar</button>
+    </a>
+  </div>
+  <%  } %>
+
+</div>

@@ -1,0 +1,16 @@
+<div style='background-color:white;color:black;'>
+    <h1>Editar Raza</h1>
+    <div class="row">
+        <div class="col-sm-8">
+            <form action="raza/editarRaza" method="post">
+                <div class="form-group">
+                    <label>Nombre</label>
+                    <input type="text" class="form-control" placeholder="Nombre" name="nombre" value="<%= raza.nombre %>"> </div>
+                <input type="hidden" name="id" value="<%=raza.id%>">
+                <button type="submit" class="btn btn-success">Editar Raza</button>
+            </form>
+        </div>
+        <div class="col-sm-4">
+            <h3 class="text-center"> <%=raza.nombre%></h3> </div>
+    </div>
+</div>
